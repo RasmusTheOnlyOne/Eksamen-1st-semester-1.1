@@ -1,0 +1,20 @@
+{
+  "name": "eksamen-1st-semester-1.1",
+  "version": "1.0.0",
+  "description": "Dette er min eksamens opgave \r I denne mappe vil jeg bruge HTML, CSS, JS, JSON, Chai unit testing, Node.js, express\r # command",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RasmusTheOnlyOne/Eksamen-1st-semester-1.1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RasmusTheOnlyOne/Eksamen-1st-semester-1.1/issues"
+  },
+  "homepage": "https://github.com/RasmusTheOnlyOne/Eksamen-1st-semester-1.1#readme"
+}
