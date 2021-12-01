@@ -1,8 +1,8 @@
 {
     "items": [
-    { "id": "1", "name": "stol", "userid": "1", "itemtype": "møbel", "pris": "100", "billed": "png1"},
-    { "id": "2", "name": "jakke", "userid": "2", "itemtype": "tøj", "pris": "200", "billed": "png2"},
-    { "id": "3", "name": "bil", "userid": "3", "itemtype": "køretøj", "pris": "300", "billed": "png3"},
-    { "id": "4", "name": "gøb", "userid": "4", "itemtype": "våben", "pris": "400", "billed": "png4"}
+    { "id": "1", "name": "stol", "userid": "1", "itemtypeid": "1", "pris": "100", "billed": "png1"},
+    { "id": "2", "name": "jakke", "userid": "2", "itemtypeid": "2", "pris": "200", "billed": "png2"},
+    { "id": "3", "name": "bil", "userid": "3", "itemtypeid": "3", "pris": "300", "billed": "png3"},
+    { "id": "4", "name": "gøb", "userid": "4", "itemtypeid": "4", "pris": "400", "billed": "png4"}
     ]
 }
