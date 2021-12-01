@@ -8,3 +8,9 @@ dir  -viser directory
 cd [foldernavn] -Til at navigere i cmd
 cd ..   -Til at tage et skridt tilbage i stier
 
+For at commite kode til github:
+git status
+git add --all
+git commit -m "besked"
+git push
+
