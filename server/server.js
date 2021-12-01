@@ -18,7 +18,7 @@ app.get('/items', (req, res) => {
 });
 
 const itemtypepath = "./model/itemtype.json"
-app.get('/items', (req, res) => {
+app.get('/itemtype', (req, res) => {
     res.sendFile(path.join(__dirname, "./model/itemtype.json"))
 
 });
