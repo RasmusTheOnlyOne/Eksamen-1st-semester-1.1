@@ -1,0 +1,8 @@
+{
+    "itemtype": [
+    { "name": "møbel", "Id": "1"},
+    { "name": "tøj", "Id": "2"},
+    { "name": "køretøj", "Id": "3"},
+    { "name": "våben", "Id": "4"}
+    ]
+}
