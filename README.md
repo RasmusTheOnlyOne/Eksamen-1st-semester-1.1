@@ -1,6 +1,6 @@
 # Eksamen-1st-semester-1.1
 Dette er min eksamens opgave 
-I denne mappe vil jeg bruge HTML, CSS, JS, JSON, Chai unit testing, Node.js, express
+I denne mappe vil jeg bruge HTML, CSS, JS, JSON, Chai unit testing, Node.js, express, fs, body-parser
 Filstien hedder: C:\Users\rasmu\OneDrive\Skrivebord\Eksamen-1st-semester-1.1
 
 # command 

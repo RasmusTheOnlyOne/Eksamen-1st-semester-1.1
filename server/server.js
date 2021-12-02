@@ -2,6 +2,9 @@
 const express = require('express');
 const app = express();
 const path = require("path");
+const bodyParser = require('body-parser');
+const fs = require('fs');
+
 // set our port
 const port = 3100;
 const userlistpath = "./model/users.json";

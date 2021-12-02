@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/RasmusTheOnlyOne/Eksamen-1st-semester-1.1#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "fs": "^0.0.1-security"
   }
 }

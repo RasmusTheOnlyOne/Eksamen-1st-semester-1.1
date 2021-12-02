@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Kob og Salg</title>
+ <title>Kob og Salg</title>
 </head>
 
 <body>
-Server is up and running
+Server is up and running and welcome to købogsalg
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="localhost:3100/users">users list</a></li>
+                    <li><a href="localhost:3100/items">items list</a></li>
+                    <li><a href="localhost:3100/itemtype">itemlist</a></li>
+                </ul>
+            </nav>
+        </div>
 
-<a href="localhost:3100/users">users list</a>
-<a href="localhost:3100/items">items list</a>
-<a href="localhost:3100/itemtype">itemlist</a>
-
+        <form>
+            <input type="text", id="brugernavn", placeholder="brugernavn">
+            <input type="password", id="password", placeholder="password">
+            <button id="submit">lav bruger</button>
+        </form>
 </body>
 
 </html>
