@@ -31,6 +31,11 @@ app.post('/users', (req, res) => {
     res.send(user1);
 })
 
+app.delete('/users', (req, res) => {
+    console.log("DELETE Request Called for /users")
+    res.send("DELETE user Request Called")
+ })
+
 app.get('/items', (req, res) => {
     res.sendFile(path.join(__dirname, itemspath))
     console.log("ramte denne GET items path");
@@ -50,6 +55,12 @@ app.post('/items', (req, res) => {
     console.log('billed: ', item1.billed);
     res.send(item1);
 })
+
+app.delete('/items', (req, res) => {
+    console.log("DELETE Request Called for /api endpoint")
+    res.send("DELETE items Request Called")
+ })
+ 
 
 app.get('/itemtype', (req, res) => {
     res.sendFile(path.join(__dirname, itemtypepath))
