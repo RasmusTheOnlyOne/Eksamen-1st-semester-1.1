@@ -13,6 +13,7 @@ const itemspath = "./model/items.json";
 const itemtypepath = "./model/itemtype.json";
 const indexpath = "./index.html";
 
+
 app.get('/users', (req, res) => {
     res.sendFile(path.join(__dirname, userlistpath))
     console.log("ramte denne GET users path");
@@ -37,6 +38,17 @@ app.get('/items', (req, res) => {
 
 app.post('/items', (req, res) => {
     console.log("ramte denne POST items path");
+    console.log("POST - /ny vare - User creating ware");
+    var user1 = req.body;
+    user1.id = "1";
+    console.log('Got body:', req.body);
+    console.log('A ', item1);
+    console.log("user: ", item1.name);
+    console.log('itemtypeid: ', item1.itemtypeid);
+    console.log('userid: ', item1.userid);
+    console.log('pris: ', item1.pris);
+    console.log('billed: ', item1.billed);
+    res.send(item1);
 })
 
 app.get('/itemtype', (req, res) => {
@@ -46,6 +58,13 @@ app.get('/itemtype', (req, res) => {
 
 app.post('/itemtype', (req, res) => {
     console.log("ramte denne POST itemtype path");
+    console.log("POST - /kategorier - kategorier");
+    var user1 = req.body;
+    user1.id = "1";
+    console.log('Got body:', req.body);
+    console.log('A ', itemtype1);
+    console.log("user: ", itemtype1.name);
+    res.send(itemtype1);
 })
 
 app.get('/', (req, res) => {
@@ -58,7 +77,7 @@ app.post('/', (req, res) => {
 
 })
 
-
+app.use(express.json());
 
 // startup our app at http://localhost:3100
 app.listen(port, () => console.log(`Server are listening on ${port}!`));
