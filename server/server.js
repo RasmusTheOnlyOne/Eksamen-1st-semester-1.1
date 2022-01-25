@@ -32,7 +32,7 @@ app.post('/users', (req, res) => {
 })
 
 app.delete('/users', (req, res) => {
-    console.log("DELETE Request Called for /users")
+    console.log("DELETE Request Called for /delete users")
     res.send("DELETE user Request Called")
  })
 
@@ -57,7 +57,7 @@ app.post('/items', (req, res) => {
 })
 
 app.delete('/items', (req, res) => {
-    console.log("DELETE Request Called for /api endpoint")
+    console.log("DELETE Request Called for /delete items")
     res.send("DELETE items Request Called")
  })
  
